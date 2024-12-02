@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 #
 
-openai.api_key = st.secrets.openai_key
+openai.api_key = st.secrets.OPENAI_KEY
 
 st.header("Xplain docs interactive chatbot 💬 🧐 🐶")
 
